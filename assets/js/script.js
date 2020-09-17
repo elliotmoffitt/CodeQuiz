@@ -29,7 +29,7 @@ function showTimer() {
 
     }, 1 * 1000)
 }
-
+// displays first question
 function nextQuestion() {
     var currentQuestion = questions[index];
     console.log(currentQuestion);
@@ -59,7 +59,7 @@ function checkAnswer(event) {
 
     }
 
-
+// display next question
     index++;
     nextQuestion();
 }
@@ -73,10 +73,10 @@ openingPage();
 // THEN a timer starts and I am presented with a question
 
 // youll need a start button
-// to listen for a click with an event listner
+// to listen for a click with an event listener
 // when its click run a function that loads in the first question to the html
 // listen for clicks on the answers to see if they are the correct one or not
-// use conditional to evaluate whether the answer matchs or not
+// use conditional to evaluate whether the answer matches or not
 
 // pending its correct or not 
 // add to score
